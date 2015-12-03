@@ -1,0 +1,244 @@
+* {
+	/*border: 1px solid red !important;*/
+}
+* {
+	-webkit-box-sizong: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* @media only screen and (max-width: 300px)  {
+	p {
+		background-color: blue;
+		display: none;
+
+	}
+}  */
+
+p {
+	margin-bottom: 0;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+*{
+	font-family: "Lato", sans-serif;
+}
+
+.TopText {
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 22px;
+	font-weight: 100;
+	color: grey;
+
+}
+
+.featuredwork {
+	color: lightgrey;
+	font-size: 1.5em;
+	padding-left: 20px;
+	padding-bottom: 3px;
+    padding-top: 10px;
+}
+
+
+.bottomleftimage {
+	max-width: 100%;
+}
+
+
+.bottommiddleimage{
+	max-width: 100%;
+}
+
+.bottomrightimage{
+	max-width: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 0;
+	margin-left: 0;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+
+.separator {
+	background: grey;
+	height: 1px;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.bigpic {
+
+	padding-top: 10px;
+	text-align: center;
+	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.bigimage {
+	width: 100%;
+}
+
+.lowerlefttext {
+	text-align: center;
+	font-size: 1.5em;
+	color: grey;
+}
+
+.lowermiddletext {
+	text-align: center;
+	font-size: 1.5em;
+	color: grey;
+}
+
+.lowerrighttext {
+	text-align: center;
+	font-size: 1.5em;
+	color: grey;
+}
+
+.lowerleftimage {
+	text-align: center;
+	margin: 0;
+	padding-right: 6px;
+}
+
+.lowermiddleimage {
+	text-align: center;
+	padding-right: 3px;
+	padding-left: 3px;
+	margin: 0;
+}
+
+.lowerrightimage {
+	text-align: center;
+	padding-left: 6px;
+	margin: 0;
+}
+
+
+.lowerleftlink {
+	text-align: center;
+	font-size: .75em;
+	color: grey;
+}
+
+.lowermiddlelink {
+	text-align: center;
+	font-size: .75em;
+	color: grey;
+}
+
+.lowerrightlink {
+	text-align: center;
+	font-size: .75em;
+	color: grey;
+}
+
+ h1, h2 {
+	margin: 0;
+	font-weight: 100;
+}
+
+h1 {
+	/*padding-bottom: 5px; */
+	font-weight: 100;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+.topleftimage {
+	border-radius: 100px;
+	max-width: 100%;
+}
+
+.image1 {
+	margin: 0;
+	padding-left: 20px;
+}
+
+li {
+	display: inline;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.navbarstuff {
+	margin: 0;
+	text-align: right;
+}
+
+footer {
+	padding-bottom: 20px;
+}
+
+.threepicrow {
+	display: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: inherit;
+}
